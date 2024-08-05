@@ -110,3 +110,43 @@ None
 3  TRAIN_4  FALSE  മുഖ്യമന്ത്രിയുടെ ബിനാമി എന്ന് സ്വർണക്കടത്തു കേ...
 4  TRAIN_5  FALSE  പിണറായി വിജയന് ഇടപെട്ട് കേരളത്തില് നിന്നുള്ള സ...
 Text has been cleaned and saved to /Users/triahavijayekkumaran/Downloads/datacleaned2.csv
+
+# removing non malayalam entries #
+Initial dataset info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1535 entries, 0 to 1534
+Data columns (total 3 columns):
+ #   Column        Non-Null Count  Dtype 
+---  ------        --------------  ----- 
+ 0   ID            1535 non-null   object
+ 1   Type          1535 non-null   object
+ 2   News/Comment  1535 non-null   object
+dtypes: object(3)
+memory usage: 36.1+ KB
+None
+        ID   Type                                       News/Comment
+0  TRAIN_1  FALSE  കേള്വി തകരാറുള്ള കുട്ടികള്ക്ക് നടത്തുന്ന സൗജന്...
+1  TRAIN_2  FALSE  ചന്ദ്രയാന് കേരള മുഖ്യമന്ത്രി പിണറായി വിജയൻ മാത...
+2  TRAIN_3  FALSE  പിണറായി വിജയന് സര്ക്കാര് നിര്മിച്ച കേരളത്തിലെ ...
+3  TRAIN_4  FALSE  മുഖ്യമന്ത്രിയുടെ ബിനാമി എന്ന് സ്വർണക്കടത്തു കേ...
+4  TRAIN_5  FALSE  പിണറായി വിജയന് ഇടപെട്ട് കേരളത്തില് നിന്നുള്ള സ...
+
+Cleaned dataset info:
+<class 'pandas.core.frame.DataFrame'>
+Index: 1533 entries, 0 to 1534
+Data columns (total 3 columns):
+ #   Column        Non-Null Count  Dtype 
+---  ------        --------------  ----- 
+ 0   ID            1533 non-null   object
+ 1   Type          1533 non-null   object
+ 2   News/Comment  1533 non-null   object
+dtypes: object(3)
+memory usage: 47.9+ KB
+None
+        ID   Type                                       News/Comment
+0  TRAIN_1  FALSE  കേള്വി തകരാറുള്ള കുട്ടികള്ക്ക് നടത്തുന്ന സൗജന്...
+1  TRAIN_2  FALSE  ചന്ദ്രയാന് കേരള മുഖ്യമന്ത്രി പിണറായി വിജയൻ മാത...
+2  TRAIN_3  FALSE  പിണറായി വിജയന് സര്ക്കാര് നിര്മിച്ച കേരളത്തിലെ ...
+3  TRAIN_4  FALSE  മുഖ്യമന്ത്രിയുടെ ബിനാമി എന്ന് സ്വർണക്കടത്തു കേ...
+4  TRAIN_5  FALSE  പിണറായി വിജയന് ഇടപെട്ട് കേരളത്തില് നിന്നുള്ള സ...
+Text has been cleaned (entries with Malayalam characters retained) and saved to /Users/triahavijayekkumaran/Downloads/dataremnums_cleaned.csv
