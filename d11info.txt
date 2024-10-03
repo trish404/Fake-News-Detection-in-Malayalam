@@ -1,0 +1,94 @@
+SVM:
+Name: count, dtype: int64
+              precision    recall  f1-score   support
+
+       FALSE       0.79      0.75      0.77       235
+   HALF TRUE       0.11      0.14      0.12        22
+MOSTLY FALSE       0.21      0.26      0.23        47
+PARTLY FALSE       0.00      0.00      0.00         3
+ MOSTLY TRUE       0.00      0.00      0.00         0
+
+    accuracy                           0.62       307
+   macro avg       0.22      0.23      0.23       307
+weighted avg       0.65      0.62      0.63       307
+
+Random Forest:
+              precision    recall  f1-score   support
+
+       FALSE       0.77      0.99      0.86       235
+   HALF TRUE       0.00      0.00      0.00        22
+MOSTLY FALSE       0.50      0.02      0.04        47
+PARTLY FALSE       0.00      0.00      0.00         3
+ MOSTLY TRUE       0.00      0.00      0.00         0
+
+    accuracy                           0.76       307
+   macro avg       0.25      0.20      0.18       307
+weighted avg       0.66      0.76      0.67       307
+
+Logic Regression : 
+
+ precision    recall  f1-score   support
+
+       FALSE       0.80      0.74      0.77       235
+   HALF TRUE       0.14      0.18      0.16        22
+MOSTLY FALSE       0.26      0.30      0.28        47
+PARTLY FALSE       0.00      0.00      0.00         3
+ MOSTLY TRUE       0.00      0.00      0.00         0
+
+    accuracy                           0.63       307
+   macro avg       0.24      0.24      0.24       307
+weighted avg       0.66      0.63      0.64       307
+
+Naive Bayes:
+              precision    recall  f1-score   support
+
+       FALSE       0.80      0.48      0.60       235
+   HALF TRUE       0.11      0.27      0.16        22
+MOSTLY FALSE       0.18      0.34      0.24        47
+PARTLY FALSE       0.00      0.00      0.00         3
+ MOSTLY TRUE       0.00      0.00      0.00         0
+
+    accuracy                           0.44       307
+   macro avg       0.22      0.22      0.20       307
+weighted avg       0.65      0.44      0.51       307
+
+KNN: 
+              precision    recall  f1-score   support
+
+       FALSE       0.94      0.06      0.12       235
+   HALF TRUE       0.10      0.55      0.17        22
+MOSTLY FALSE       0.19      0.47      0.27        47
+PARTLY FALSE       0.02      0.33      0.03         3
+ MOSTLY TRUE       0.00      0.00      0.00         0
+
+    accuracy                           0.16       307
+   macro avg       0.25      0.28      0.12       307
+weighted avg       0.75      0.16      0.15       307
+
+Decision Trees:
+
+              precision    recall  f1-score   support
+
+       FALSE       0.79      0.75      0.77       235
+   HALF TRUE       0.15      0.23      0.18        22
+MOSTLY FALSE       0.14      0.11      0.12        47
+PARTLY FALSE       0.08      0.33      0.12         3
+ MOSTLY TRUE       0.00      0.00      0.00         0
+
+    accuracy                           0.61       307
+   macro avg       0.23      0.28      0.24       307
+weighted avg       0.64      0.61      0.62       307
+
+Xg:
+              precision    recall  f1-score   support
+
+       FALSE       0.78      0.85      0.81       235
+   HALF TRUE       0.00      0.00      0.00        22
+MOSTLY FALSE       0.21      0.19      0.20        47
+PARTLY FALSE       0.00      0.00      0.00         3
+ MOSTLY TRUE       0.00      0.00      0.00         0
+
+    accuracy                           0.68       307
+   macro avg       0.20      0.21      0.20       307
+weighted avg       0.63      0.68      0.65       307
+
